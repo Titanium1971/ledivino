@@ -83,7 +83,7 @@ CANON Cyril - CC Developpement
 - Back-office de suivi des ventes
 
 **Prix public de reference (futurs clients):** 9 900,00 EUR HT (11 880,00 EUR TTC)  
-**Prix ami laboratoire Le Divino:** 4 900,00 EUR HT (5 880,00 EUR TTC)
+**Prix ami laboratoire Le Divino:** 3 500,00 EUR HT (4 200,00 EUR TTC)
 
 ## 4) Recapitulatif financier
 
@@ -92,8 +92,8 @@ CANON Cyril - CC Developpement
 - Total TTC (TVA 20%): **22 896,00 EUR TTC**
 
 ### B. Proposition Le Divino (prix ami)
-- Total HT avec module 7 au prix ami: **14 080,00 EUR HT**
-- Total TTC (TVA 20%): **16 896,00 EUR TTC**
+- Total HT avec module 7 au prix ami: **12 680,00 EUR HT**
+- Total TTC (TVA 20%): **15 216,00 EUR TTC**
 
 ## 5) Conditions de paiement (proposition)
 - 30% a la commande
