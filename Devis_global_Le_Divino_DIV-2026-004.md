@@ -72,7 +72,9 @@ CANON Cyril - CC Developpement
 - Partie software de diffusion
 - Partie hardware + installation
 
-**Prix public de reference (futurs clients):** 3 325,00 EUR HT (3 990,00 EUR TTC)  
+**Prix public ecran (futurs clients):** 3 325,00 EUR HT (3 990,00 EUR TTC)  
+**Prix public software (futurs clients):** 3 000,00 EUR HT (3 600,00 EUR TTC)  
+**Prix public total module 6 (futurs clients):** 6 325,00 EUR HT (7 590,00 EUR TTC)  
 **Prix Le Divino (reference projet):** 2 200,00 EUR HT (2 640,00 EUR TTC)
 
 ### Module 7 - Billetterie Concerts d'Ete (nouveau)
@@ -98,8 +100,8 @@ CANON Cyril - CC Developpement
 ## 4) Recapitulatif financier
 
 ### A. Reference publique (catalogue)
-- Total HT avec module 7 + module 8 au prix public: **18 005,00 EUR HT**
-- Total TTC (TVA 20%): **21 606,00 EUR TTC**
+- Total HT avec module 7 + module 8 au prix public: **21 005,00 EUR HT**
+- Total TTC (TVA 20%): **25 206,00 EUR TTC**
 
 ### B. Proposition Le Divino - modules 1 a 6 (en cours de signature)
 - Package commercial convenu: **7 916,67 EUR HT**
