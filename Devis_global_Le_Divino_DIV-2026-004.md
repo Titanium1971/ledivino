@@ -85,15 +85,24 @@ CANON Cyril - CC Developpement
 **Prix public de reference (futurs clients):** 9 900,00 EUR HT (11 880,00 EUR TTC)  
 **Prix ami laboratoire Le Divino:** 3 500,00 EUR HT (4 200,00 EUR TTC)
 
+### Module 8 - Parking a proximite (version 1)
+- Carte des parkings proches
+- Informations utiles (adresse, capacite, type)
+- Boutons d'itineraire direct
+- Gestion simple des parkings depuis l'admin
+
+**Prix public de reference (futurs clients):** 600,00 EUR HT (720,00 EUR TTC)  
+**Prix ami Le Divino:** 300,00 EUR HT (360,00 EUR TTC)
+
 ## 4) Recapitulatif financier
 
 ### A. Reference publique (catalogue)
-- Total HT avec module 7 au prix public: **19 080,00 EUR HT**
-- Total TTC (TVA 20%): **22 896,00 EUR TTC**
+- Total HT avec module 7 + module 8 au prix public: **19 680,00 EUR HT**
+- Total TTC (TVA 20%): **23 616,00 EUR TTC**
 
 ### B. Proposition Le Divino (prix ami)
-- Total HT avec module 7 au prix ami: **12 680,00 EUR HT**
-- Total TTC (TVA 20%): **15 216,00 EUR TTC**
+- Total HT avec module 7 + module 8 au prix ami: **12 980,00 EUR HT**
+- Total TTC (TVA 20%): **15 576,00 EUR TTC**
 
 ## 5) Conditions de paiement (proposition)
 - 30% a la commande

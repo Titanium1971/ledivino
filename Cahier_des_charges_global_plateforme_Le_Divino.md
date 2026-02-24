@@ -5,7 +5,7 @@
 **Date:** 24 fevrier 2026
 
 ## 1) Objectif
-Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation restaurant, la gestion quotidienne, la communication digitale, et la billetterie des concerts d'ete.
+Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation restaurant, la gestion quotidienne, la communication digitale, la billetterie des concerts d'ete et l'information stationnement a proximite.
 
 ## 2) Perimetre general
 
@@ -72,6 +72,13 @@ Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation 
 - E-ticket QR code
 - Suivi des ventes et export participants
 
+### Module 8 - Parking a proximite (version 1)
+- Carte des parkings proches du restaurant
+- Fiches parking (nom, adresse, capacite, type gratuit/payant)
+- Boutons d'itineraire direct (Google Maps / Apple Plans / Waze)
+- Affichage d'un statut informatif (donnees statiques/maj manuelle)
+- Ecran d'administration pour mise a jour des informations parkings
+
 ## 4) Exigences transverses
 - Securite des donnees et acces admin
 - Fiabilite anti double-reservation (module 7)
@@ -111,7 +118,7 @@ Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation 
 - Harmonisation UI/UX et navigation
 
 ### Lot 1 - Modules web essentiels
-- Modules 1 a 4
+- Modules 1 a 4 + module 8
 
 ### Lot 2 - Communication avancee
 - Module 5
@@ -132,6 +139,7 @@ Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation 
 - Taux de conversion reservations en hausse
 - Visibilite locale amelioree (SEO)
 - Taux de remplissage concerts mesurable
+- Facilite d'acces et de stationnement pour les clients
 - Reduction du temps de gestion interne
 
 ## 10) Statut du projet a date
