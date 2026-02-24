@@ -144,6 +144,8 @@ Disposer d'une plateforme web complete pour Le Divino, couvrant la presentation 
 
 ## 10) Statut du projet a date
 - Base site et back-office: realisee
-- Cadrage billetterie: realise
+- Package modules 1 a 6: proposition fixee a 9 500 EUR TTC (en cours de signature)
+- Module 7 (billetterie): cadre, en option non signee
+- Module 8 (parking V1): cadre, en option non signee
 - Consolidation globale: en cours
 - Demarrage projet concret: immediat

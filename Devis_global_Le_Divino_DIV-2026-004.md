@@ -100,9 +100,18 @@ CANON Cyril - CC Developpement
 - Total HT avec module 7 + module 8 au prix public: **19 680,00 EUR HT**
 - Total TTC (TVA 20%): **23 616,00 EUR TTC**
 
-### B. Proposition Le Divino (prix ami)
-- Total HT avec module 7 + module 8 au prix ami: **12 980,00 EUR HT**
-- Total TTC (TVA 20%): **15 576,00 EUR TTC**
+### B. Proposition Le Divino - modules 1 a 6 (en cours de signature)
+- Package commercial convenu: **7 916,67 EUR HT**
+- Total TTC package modules 1 a 6: **9 500,00 EUR TTC**
+
+### C. Modules non signes a date (options)
+- Module 7 (prix ami): **3 500,00 EUR HT** (**4 200,00 EUR TTC**)
+- Module 8 (prix ami): **300,00 EUR HT** (**360,00 EUR TTC**)
+- Total options 7 + 8: **3 800,00 EUR HT** (**4 560,00 EUR TTC**)
+
+### D. Projection si options 7 et 8 validees ensuite
+- Total HT global projete: **11 716,67 EUR HT**
+- Total TTC global projete: **14 060,00 EUR TTC**
 
 ## 5) Conditions de paiement (proposition)
 - 30% a la commande
@@ -110,6 +119,7 @@ CANON Cyril - CC Developpement
 - 30% a la livraison finale
 
 ## 6) Maintenance module billetterie (prix ami)
+*(Applicable uniquement si le module 7 est signe.)*
 - 90,00 EUR HT/mois pendant 6 mois
 - Puis 190,00 EUR HT/mois
 
@@ -120,4 +130,5 @@ CANON Cyril - CC Developpement
 
 ## 8) Notes
 - Le prix ami laboratoire du module 7 est reserve a Le Divino.
-- Le tarif public module 7 sert de base commerciale pour futurs clients.
+- Le tarif public des modules 7 et 8 sert de base commerciale pour futurs clients.
+- Les modules 7 et 8 sont actuellement hors perimetre signe.
