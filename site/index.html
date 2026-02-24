@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artimon Bike | Location de velo a Marseillan, Agde, Meze</title>
+    <meta
+      name="description"
+      content="Artimon Bike, location, vente et reparation de velos a Marseillan. Explorez l'Etang de Thau avec nos VTT, VTC, velos electriques, velos enfants et tandems."
+    />
+    <meta
+      name="keywords"
+      content="location velo Marseillan, reparation velo Agde, vente velo Meze, Etang de Thau"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f3fbff;
+        --ink: #0f1c2b;
+        --muted: #5f6f82;
+        --brand: #0a7ea4;
+        --brand-2: #17b090;
+        --card: #ffffff;
+        --line: #d9e9f2;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Manrope", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 10% 0%, #c8edff 0%, transparent 35%),
+          radial-gradient(circle at 90% 20%, #d2ffe9 0%, transparent 30%),
+          var(--bg);
+      }
+
+      .container {
+        width: min(1120px, 92vw);
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        backdrop-filter: blur(8px);
+        background: rgba(243, 251, 255, 0.88);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .topbar-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 70px;
+      }
+
+      .brand {
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        font-size: 1.15rem;
+      }
+
+      .brand span {
+        color: var(--brand);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: var(--ink);
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+
+      .nav .btn {
+        background: linear-gradient(120deg, var(--brand), var(--brand-2));
+        color: #fff;
+        padding: 0.6rem 0.9rem;
+        border-radius: 999px;
+      }
+
+      .hero {
+        padding: 5.4rem 0 2.8rem;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.83rem;
+        font-weight: 700;
+        color: #05556f;
+        background: #dff4ff;
+        border: 1px solid #bee8fa;
+        border-radius: 999px;
+        padding: 0.42rem 0.74rem;
+      }
+
+      h1 {
+        margin-top: 0.95rem;
+        font-size: clamp(2rem, 5.5vw, 4rem);
+        line-height: 1.03;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+      }
+
+      .lead {
+        margin-top: 1rem;
+        max-width: 70ch;
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      .hero-cta {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+      }
+
+      .hero-cta a {
+        text-decoration: none;
+        border-radius: 999px;
+        padding: 0.7rem 1rem;
+        font-size: 0.92rem;
+        font-weight: 700;
+      }
+
+      .hero-cta .primary {
+        color: #fff;
+        background: linear-gradient(120deg, var(--brand), var(--brand-2));
+      }
+
+      .hero-cta .secondary {
+        color: var(--ink);
+        border: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .kpis {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.85rem;
+      }
+
+      .kpi {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        padding: 1rem;
+      }
+
+      .kpi strong {
+        display: block;
+        font-size: 1.3rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .kpi span {
+        font-size: 0.86rem;
+        color: var(--muted);
+      }
+
+      section {
+        padding: 2rem 0;
+      }
+
+      h2 {
+        font-size: clamp(1.35rem, 3vw, 2rem);
+        letter-spacing: -0.01em;
+        font-weight: 800;
+      }
+
+      .section-intro {
+        margin-top: 0.55rem;
+        color: var(--muted);
+        line-height: 1.6;
+        max-width: 74ch;
+      }
+
+      .grid-3 {
+        margin-top: 1.1rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.9rem;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        background: var(--card);
+        padding: 1rem;
+      }
+
+      .card h3 {
+        font-size: 1.03rem;
+        margin-bottom: 0.45rem;
+      }
+
+      .card p,
+      .card li {
+        color: var(--muted);
+        line-height: 1.55;
+        font-size: 0.94rem;
+      }
+
+      .card ul {
+        list-style: none;
+        display: grid;
+        gap: 0.4rem;
+      }
+
+      .route-list {
+        margin-top: 1.1rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.9rem;
+      }
+
+      .route {
+        background: linear-gradient(180deg, #ffffff, #f7fcff);
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+        padding: 1rem;
+      }
+
+      .route strong {
+        display: block;
+        margin-bottom: 0.35rem;
+      }
+
+      .footer {
+        margin-top: 2.2rem;
+        padding: 1.3rem 0 2.1rem;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .contact-row {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1.25fr 1fr;
+        gap: 0.9rem;
+      }
+
+      .highlight {
+        color: #005a73;
+        font-weight: 700;
+      }
+
+      @media (max-width: 940px) {
+        .nav {
+          display: none;
+        }
+
+        .kpis {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .grid-3 {
+          grid-template-columns: 1fr;
+        }
+
+        .route-list {
+          grid-template-columns: 1fr;
+        }
+
+        .contact-row {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .hero {
+          padding-top: 4.4rem;
+        }
+
+        .kpis {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-row">
+        <div class="brand">Artimon <span>Bike</span></div>
+        <nav class="nav">
+          <a href="#location">Location</a>
+          <a href="#reparation">Reparation</a>
+          <a href="#parcours">Parcours</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="tel:+33482298770">04 82 29 87 70</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <span class="badge">Votre partenaire velo toute l'annee sur l'Etang de Thau</span>
+        <h1>Artimon Bike - Location de Velos a Marseillan</h1>
+        <p class="lead">
+          Location, vente et reparation de velos a Marseillan, Agde, Meze,
+          Bouzigues et Sete. Decouvrez l'Etang de Thau grace a une large gamme
+          de velos adaptes a tous les profils.
+        </p>
+        <div class="hero-cta">
+          <a class="primary" href="#location">Voir les velos en location</a>
+          <a class="secondary" href="#contact">Nous trouver</a>
+        </div>
+
+        <div class="kpis">
+          <div class="kpi">
+            <strong>15EUR/jour</strong>
+            <span>Tarifs location a partir de</span>
+          </div>
+          <div class="kpi">
+            <strong>4.6/5</strong>
+            <span>89 avis clients Google</span>
+          </div>
+          <div class="kpi">
+            <strong>9h30-12h / 14h30-18h30</strong>
+            <span>Ouvert tous les jours</span>
+          </div>
+          <div class="kpi">
+            <strong>34340</strong>
+            <span>Quai de Toulon, Marseillan</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="location">
+        <h2>Location de velos</h2>
+        <p class="section-intro">
+          Decouvrez notre large gamme de velos en location: VTT, VTC, velos
+          electriques, velos enfants et tandems. Location a la journee,
+          demi-journee ou a la semaine.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Gamme disponible</h3>
+            <ul>
+              <li>VTT</li>
+              <li>VTC</li>
+              <li>Velos electriques</li>
+              <li>Velos enfants</li>
+              <li>Tandems</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Formules</h3>
+            <ul>
+              <li>Location a la journee</li>
+              <li>Location demi-journee</li>
+              <li>Location a la semaine</li>
+              <li>Tarifs a partir de 15EUR/jour</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Livraison</h3>
+            <p>
+              Service de livraison disponible a partir de <span class="highlight">4 velos</span>
+              et <span class="highlight">3 jours minimum</span> au tarif de
+              <span class="highlight">30EUR par velo</span>.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="reparation">
+        <h2>Reparation de velos</h2>
+        <p class="section-intro">
+          Notre atelier professionnel repare tous types de velos. Pieces
+          detachees disponibles et devis gratuit.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Interventions atelier</h3>
+            <ul>
+              <li>Crevaisons</li>
+              <li>Freins</li>
+              <li>Derailleur</li>
+              <li>Revision complete</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Tous velos</h3>
+            <p>
+              Prise en charge des velos classiques et electriques par un atelier
+              equipe pour les reparations rapides et revisions periodiques.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Devis gratuit</h3>
+            <p>
+              Diagnostic sur place avec chiffrage transparent avant
+              intervention.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="parcours">
+        <h2>Parcours cyclables autour de l'Etang de Thau</h2>
+        <p class="section-intro">
+          Partez de notre boutique pour explorer les plus beaux itinaires de la
+          region.
+        </p>
+
+        <div class="route-list">
+          <article class="route">
+            <strong>Tour de l'Etang de Thau</strong>
+            <p>60 km, boucle complete.</p>
+          </article>
+          <article class="route">
+            <strong>Marseillan - Sete</strong>
+            <p>14 km, Voie Verte du Lido.</p>
+          </article>
+          <article class="route">
+            <strong>Marseillan - Agde</strong>
+            <p>8 km, Canal du Midi (UNESCO).</p>
+          </article>
+          <article class="route">
+            <strong>Marseillan - Meze - Bouzigues</strong>
+            <p>18 km, Route des huitres.</p>
+          </article>
+          <article class="route">
+            <strong>Pointe des Onglous</strong>
+            <p>3 km, balade familiale.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Nous trouver</h2>
+        <div class="contact-row">
+          <article class="card">
+            <h3>Adresse</h3>
+            <p>Quai de Toulon, Zone Technique du Port, 34340 Marseillan</p>
+            <h3 style="margin-top: 0.85rem">Horaires</h3>
+            <p>Tous les jours 9h30-12h / 14h30-18h30</p>
+            <h3 style="margin-top: 0.85rem">Telephone</h3>
+            <p>04 82 29 87 70</p>
+          </article>
+          <article class="card">
+            <h3>Zones desservies</h3>
+            <p>
+              Marseillan, Agde, Meze, Bouzigues, Sete et toute la region de
+              l'Etang de Thau dans l'Herault (34).
+            </p>
+            <h3 style="margin-top: 0.85rem">Avis clients</h3>
+            <p>Note moyenne: 4.6/5 sur 89 avis Google.</p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© 2025 Artimon Bike Marseillan. Tous droits reserves.</p>
+        <p>
+          Location velo Marseillan | Reparation velo Agde | Vente velo Meze |
+          Etang de Thau
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
