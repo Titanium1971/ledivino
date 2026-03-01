@@ -17,13 +17,19 @@ export default function ReservationsPage() {
         </div>
       </div>
 
-      <form className="panel reveal space-y-4 rounded-2xl p-4 sm:p-5 md:p-6" style={{ animationDelay: "0.1s" }}>
+      <form className="panel reveal space-y-3.5 overflow-hidden rounded-2xl p-4 sm:p-5 md:p-6" style={{ animationDelay: "0.1s" }}>
         <input className="form-field" placeholder="Nom et prénom" />
         <input type="email" className="form-field" placeholder="Email" />
         <input className="form-field" placeholder="Téléphone" />
-        <div className="grid gap-3 sm:grid-cols-2">
-          <input type="date" className="form-field" />
-          <input type="time" className="form-field" />
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-3">
+          <div className="min-w-0 space-y-1.5">
+            <label className="text-xs text-[var(--muted)]">Date</label>
+            <input type="date" className="form-field" />
+          </div>
+          <div className="min-w-0 space-y-1.5">
+            <label className="text-xs text-[var(--muted)]">Heure</label>
+            <input type="time" className="form-field" />
+          </div>
         </div>
         <input type="number" min={1} max={12} className="form-field" placeholder="Nombre de convives" />
         <textarea
@@ -31,7 +37,7 @@ export default function ReservationsPage() {
           className="form-field min-h-[120px] resize-y"
           placeholder="Allergies, anniversaire, préférences..."
         />
-        <button type="button" className="btn-gold w-full py-3.5 text-base">
+        <button type="button" className="btn-gold w-full py-3 text-sm sm:text-base">
           Envoyer ma demande
         </button>
       </form>
