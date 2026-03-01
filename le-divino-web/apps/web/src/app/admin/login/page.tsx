@@ -1,28 +1,13 @@
+import Link from "next/link";
+
 export default function AdminLoginPage() {
   return (
-    <section className="mx-auto max-w-md space-y-4 rounded border border-stone-200 bg-white p-6">
-      <h1 className="text-2xl font-semibold">Connexion Admin</h1>
-      <p className="text-sm text-stone-700">
-        Auth JWT + rôles admin à implémenter côté API (étape 2), puis connexion front sécurisée.
-      </p>
-      <form className="space-y-3">
-        <input
-          type="email"
-          placeholder="Email"
-          className="w-full rounded border border-stone-300 px-3 py-2"
-          disabled
-        />
-        <input
-          type="password"
-          placeholder="Mot de passe"
-          className="w-full rounded border border-stone-300 px-3 py-2"
-          disabled
-        />
-        <button type="button" className="w-full rounded bg-stone-900 px-4 py-2 text-white" disabled>
-          Bientôt disponible
-        </button>
-      </form>
+    <section className="mx-auto max-w-md space-y-4 panel rounded-2xl p-6">
+      <h1 className="font-heading text-4xl">Connexion Admin</h1>
+      <p className="text-sm text-[var(--sand)]">Authentification en cours de finalisation. Accès back-office de test disponible.</p>
+      <Link href="/admin/reservations" className="btn-gold w-full">
+        Ouvrir le module Réservations
+      </Link>
     </section>
   );
 }
-

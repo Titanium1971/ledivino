@@ -17,10 +17,13 @@ class ReservationCreate(BaseModel):
     message: str | None = Field(default=None, max_length=500)
 
 
+class ReservationStatusUpdate(BaseModel):
+    status: str = Field(pattern="^(pending|confirmed|cancelled|seated)$")
+
+
 class EventPayload(BaseModel):
     title: str = Field(min_length=3, max_length=160)
     description: str = Field(min_length=10, max_length=4000)
     starts_at: datetime
     ends_at: datetime | None = None
     published: bool = False
-
