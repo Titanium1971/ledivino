@@ -29,6 +29,7 @@ body {
   color: var(--ivory);
   font-family: var(--font-body), sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 .site-bg {
@@ -108,8 +109,35 @@ p {
   padding: 0.74rem 1.28rem;
 }
 
+.form-field {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--ink-soft);
+  color: var(--ivory);
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 0.85rem 1rem;
+  min-height: 48px;
+}
+
+.form-field::placeholder {
+  color: var(--muted);
+}
+
+.form-field:focus {
+  outline: 2px solid rgba(182, 144, 87, 0.6);
+  outline-offset: 1px;
+}
+
 .reveal {
   animation: fade-up 0.9s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    animation: none;
+  }
 }
 
 @keyframes fade-up {
